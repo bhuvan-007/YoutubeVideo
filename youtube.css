@@ -1,0 +1,108 @@
+* {
+padding: 0;
+margin: 0;
+}
+body{
+line-height: 1.6em;
+font-family: "Segoue",sans-serif;
+font-size: 15px;
+color: #666;
+
+
+}
+#container{
+
+width: 75%;
+margin:0 auto;
+margin-top: 10px;
+}
+
+a{
+	color:yellow;
+}
+section{
+	padding: 30px 20px 20px 20px; 
+}
+header{
+	padding: 10px 20px;
+
+
+}
+header h1{
+	color:white;
+	margin-bottom: 5px;
+
+}
+footer{
+padding: 20px;
+text-align: center;
+color: white;
+}
+.clearfix{
+	clear: both;
+}
+.fieldcontainer{
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+.search-field{
+	    box-shadow: 10px 10px grey;
+
+
+}
+#results li{
+	padding: 10px 0;
+	color: white;
+	list-style: none;
+	overflow: auto;
+}
+.list-left{
+	float: left;
+	width: 70%;
+	height: 350px;
+
+}
+.list-left  iframe{
+	width: 100%;
+	padding: 3px;
+	height: 100%;
+	border: solid #ccc 1px;
+
+
+}
+.list-right{
+	float: right;
+	width: 28%;
+	padding: 3px;
+	height: 350px;
+
+
+}
+
+.cTitle{
+	color:white;
+font-weight: bold;
+
+}
+.button-container{
+	margin-top: 25px;
+
+}
+.paging-button{
+	background: #f4f4f4;
+	padding: 8px 13px;
+	border: #ccc 1px solid;
+	border-radius: 5px;
+	margin:10px;
+color: #333;
+cursor: pointer;
+}
+#title{
+	color: green;
+	padding: 40px;
+text-align: center;
+text-shadow: 5px;
+font-weight: bold;
+}
